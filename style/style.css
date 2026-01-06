@@ -33,7 +33,7 @@ header{
     background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
     background-repeat: no-repeat;
 
-    background-position: top left,bottom right;
+    background-position: 23px 38px,bottom right;
     
 }
 nav{
@@ -61,6 +61,9 @@ nav.menu a{
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+.text-center{
+    text-align: center;
 }
 .section-heading{
     max-width: 827px;
@@ -230,4 +233,49 @@ a{
 }
 .education{
     text-align: left;
+}
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px ;
+
+}
+.footer-container p{
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container .social{
+    max-width: 562px;
+
+}
+.footer-container h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+.footer-container .icons a{
+    margin-right: 24px;
+
+}
+.footer-container from input[type="text"] ,.footer-container from textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
+    color: #757575;
+}
+.form{
+    margin-bottom: 24px;
 }
